@@ -4,10 +4,10 @@ from google.cloud import storage
 def generate_signed_url():
     """Generates a v4 signed URL for uploading a blob using a service account."""
     # The path to your service account key file
-    service_account_key_file = "D:\Python_Type_Shit\project-365-questions-32c6444de434.json"
+    service_account_key_file = "FILE LOCATION HERE"
 
     # The name of your bucket
-    bucket_name = "question_bucket_365/audio-files"
+    bucket_name = "PROJECT NAME/BUCKET NAME"
 
     # The name of your object
     object_name = "record9.wav"
